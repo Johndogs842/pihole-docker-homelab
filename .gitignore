@@ -1,5 +1,7 @@
-.env
-etc-pihole/setupVars.conf
+nano .gitignore
 etc-pihole/pihole-FTL.db
-etc-pihole/logrotate
+etc-pihole/pihole-FTL.db-shm
+etc-pihole/pihole-FTL.db-wal
+etc-pihole/setupVars.conf
+.env
 *.log
