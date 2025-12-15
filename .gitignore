@@ -1,0 +1,5 @@
+.env
+etc-pihole/setupVars.conf
+etc-pihole/pihole-FTL.db
+etc-pihole/logrotate
+*.log
