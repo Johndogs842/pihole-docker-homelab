@@ -4,13 +4,8 @@ services:
     image: pihole/pihole:latest
     restart: unless-stopped
     network_mode: "host"
-    environment:
-      TZ: "Australia/Sydney"
-      WEBPASSWORD: "kkagnOM101"
-      DNS1: "1.1.1.1"
-      DNS2: "9.9.9.9"
-      ServerIP: "192.168.20.19"
-      DNSMASQ_LISTENING: "all"
+    env_file:
+      - .env
     volumes:
       - "./etc-pihole/:/etc/pihole/"
       - "./etc-dnsmasq.d/:/etc/dnsmasq.d/"
