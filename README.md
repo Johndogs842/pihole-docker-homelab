@@ -1,2 +1,2 @@
-# pihlole-docker-homelab
+# pihole-docker-homelab
 Details of Pi-hole configuration created in docker
